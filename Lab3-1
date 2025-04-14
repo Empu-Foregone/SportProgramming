@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    float meters;
+
+    printf("Enter the length in meters: ");
+    scanf("%f", &meters);
+
+    float centimeters = meters * 100;
+    float millimeters = meters * 1000;
+
+    printf("Length in centimeters: %.2f\n", centimeters);
+    printf("Length in millimeters: %.2f\n", millimeters);
+
+    return 0;
+}
